@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aquote application</title>
+</head>
+<body>
+<p>hellooooo everyone</p>
+
+username: <input type="textbox" name="user"><br><br>
+password: <input type="textbox" name="password"><br><br>
+<input type="button" value="submit" onclick="helloooooooooooooooo">
+<div align="center" id="quote"></div>
+<script>
+	var quotearray = [
+"This is row 1",
+"This is row 2",
+"This is row 3",
+"This is row 4",
+"This is row 5",
+"This is row 5",
+"This is row 6",
+"This is row 7",
+"This is row 8",
+"This is row 9",
+"This is row 10",
+"This is row 11",
+];
+var randomNumber=Math.floor((Math.random() * 11) + 1);
+          document.getElementById('quote').innerHTML=quotearray[randomNumber-1];
+</script>
+
+</body>
+</html>
